@@ -1,0 +1,27 @@
+{
+  "name": "PayloadSchema",
+  "type": "record",
+  "namespace": "com.project.auto.testing.avro.payload.schema",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Age",
+      "type": "int"
+    },
+    {
+      "name": "Sex",
+      "type": "string"
+    },
+    {
+      "name": "Address",
+      "type": "string"
+    },
+    {
+      "name": "Company",
+      "type": "string"
+    }
+  ]
+}

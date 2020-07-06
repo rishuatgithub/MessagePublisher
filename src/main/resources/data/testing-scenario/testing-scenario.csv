@@ -1,0 +1,4 @@
+filename,id,persona,BQ_changes,Datastore_changes
+payload-message1.json,20202020,Json Sample,Yes,No
+payload-message2.json,123455,Json Sample 02,Yes,Yes
+payload-message3.json,9088761,Json Sample 03,Yes,No
