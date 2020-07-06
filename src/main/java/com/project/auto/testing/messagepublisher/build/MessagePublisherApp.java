@@ -28,6 +28,6 @@ public class MessagePublisherApp implements CommandLineRunner {
         log.info("Starting Execution of Publisher Controller");
         publisherController.publishMessages();
 
-        // System.exit(0);
+        System.exit(0);
     }
 }
