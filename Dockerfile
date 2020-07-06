@@ -1,6 +1,4 @@
-FROM openjdk:8-jdk-alphine
+FROM openjdk:8-jdk-alpine
 ARG JAR_FILE=target/*.jar
-
 COPY ${JAR_FILE} messagepublisher.jar
-
 ENTRYPOINT ["java","-jar","/messagepublisher.jar"]
