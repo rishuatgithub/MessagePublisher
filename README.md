@@ -16,3 +16,7 @@ This module reads messages from gcp cloud storage and publishes the messages to 
 `java -jar messagepublisher-*.jar -Dspring.profiles.active=<environment>`
 
 - Acceptable Env: dev, uat
+
+For using Swagger. Type in the below:
+
+`http://localhost:8080/swagger-ui.html#/`
